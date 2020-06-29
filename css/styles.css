@@ -17,6 +17,14 @@ body {
   letter-spacing: 0.03em;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Logo */
 
 .logo {
