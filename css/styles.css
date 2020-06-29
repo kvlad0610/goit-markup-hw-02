@@ -1,0 +1,155 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primery-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* Logo */
+
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.web-color {
+  color: var(--accent-color);
+}
+
+/* Navigation */
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Address */
+
+.header-address .mail {
+  color: var(--primery-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-address .mail:hover,
+.header-address .mail:focus {
+  color: var(--accent-color);
+}
+
+.header-address .tel {
+  color: var(--primery-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-address .tel:hover,
+.header-address .tel:focus {
+  color: var(--accent-color);
+}
+
+.footer-address .address {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-map {
+  color: var(--primery-white-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--primery-white-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.occupation {
+  color: var(--primery-white-color);
+}
+
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* Button */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
+
+/* Footer */
+
+.a-call {
+  color: var(--primery-white-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--primery-white-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
