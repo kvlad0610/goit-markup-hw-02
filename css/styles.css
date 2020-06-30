@@ -161,3 +161,38 @@ a {
   font-size: 26px;
   line-height: 31px;
 }
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+}
+
+/* Filter */
+
+.filters .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.filters .link:hover,
+.filters .link:focus {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
+
+/* Working */
+
+.working .title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.working .texte {
+  font-size: 16px;
+  line-height: 30px;
+}
