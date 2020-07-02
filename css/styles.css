@@ -25,9 +25,15 @@ a {
   text-decoration: none;
 }
 
+/* Header */
+
+.header {
+  background: var(--primery-white-color);
+}
+
 /* Logo */
 
-.logo {
+.navigation-logo {
   color: #000000;
   font-family: Raleway;
   font-weight: bold;
@@ -35,7 +41,7 @@ a {
   line-height: 31px;
 }
 
-.web-color {
+.logo-blue {
   color: var(--accent-color);
 }
 
@@ -45,16 +51,16 @@ a {
   list-style: none;
 }
 
-.site-nav .link {
+.navigation-list .navigation-link {
   color: var(--title-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.navigation-list .navigation-link:hover,
+.navigation-list .navigation-link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.navigation-list .navigation-link.current {
   color: var(--accent-color);
 }
 
@@ -88,7 +94,7 @@ a {
   color: var(--accent-color);
 }
 
-.footer-address .address {
+.footer-address .address-text {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -99,7 +105,21 @@ a {
 
 /* Hero */
 
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 81px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primery-white-color);
 }
 
@@ -107,13 +127,12 @@ a {
 
 .section-title {
   color: var(--title-text-color);
-  font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
 }
 
-.subtitle {
+.features-title {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -121,18 +140,20 @@ a {
   text-transform: uppercase;
 }
 
-.occupation {
+.occupation-title {
+  line-height: 16px;
+  text-transform: uppercase;
   color: var(--primery-white-color);
 }
 
-.name {
+.team-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
 
-.position {
+.team-position {
   font-size: 16px;
   line-height: 19px;
 }
@@ -140,6 +161,14 @@ a {
 /* Button */
 
 .button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--primery-white-color);
 }
@@ -147,6 +176,8 @@ a {
 /* Footer */
 
 .a-call {
+  line-height: 16px;
+  text-transform: uppercase;
   color: var(--primery-white-color);
 }
 
@@ -169,22 +200,23 @@ a {
 
 /* Filter */
 
-.filters .link {
+.filters-list .btn {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  letter-spacing: 0.03em;
 }
 
-.filters .link:hover,
-.filters .link:focus {
+.filters-list .btn:hover,
+.filters-list .btn:focus {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
 }
 
 /* Working */
 
-.working .title {
+.working-title {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
@@ -192,7 +224,7 @@ a {
   letter-spacing: 0.06em;
 }
 
-.working .texte {
+.working-text {
   font-size: 16px;
   line-height: 30px;
 }
